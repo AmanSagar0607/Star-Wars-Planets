@@ -7,7 +7,7 @@ function ResidentList({ residents }) {
       <ul>
         {residents.map((resident) => (
           <li key={resident.name} className="mb-1">
-            {resident.name} - Height: {resident.height}, Mass: {resident.mass}, Gender: {resident.gender}
+            {`${resident.name} - Height: ${resident.height}, Mass: ${resident.mass}, Gender: ${resident.gender}`}
           </li>
         ))}
       </ul>
